@@ -1,0 +1,671 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.gig{
+    height: 150px;
+    margin: 0px;
+    padding: 0PX;
+}
+.food-munch-logo {
+  width: 80px;
+  height: 70px;
+}
+.main_head {
+    font-family: Roboto;
+    font-size: 32px; /* Adjust as per your preference */
+    font-weight: 200;
+    color: #000; /* Ensure proper contrast for visibility */
+}
+.main_heads {
+    font-family: Roboto;
+    font-size: 6px; /* Adjust as per your preference */
+  
+    font-weight: bold;
+    width: 90px;
+    color: #000; /* Ensure proper contrast for visibility */
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px; /* Adjust size */
+    font-weight: 500;
+    width: 120px;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px; /* Adjust size */
+    font-weight: 500;
+    width: 100px;
+}
+
+#navItem3 .custom-buttons {
+    font-family: 'Roboto';
+    font-size: 18px; /* Adjust size */
+    font-weight: bold;
+    color: white;
+    background-color: rgb(8, 8, 131);
+    width: 300px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 15px;
+}
+
+#navItem4 button {
+    font-size: 18px; /* Adjust size */
+    background-color: white;
+    border:10px;
+}
+.banner-section-bg-container {
+  position: relative;
+  color: white; /* Text color */
+  font-size: 24px;
+  padding: 20px;
+  height: 100vh;
+  
+}
+.banner-section-bg-container::before {
+  background-image: url("https://res.cloudinary.com/dytikxulw/image/upload/v1733329766/image1_dv80pm.png");
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 780px;
+  
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; 
+  z-index: -1; /* Send it behind the text */
+}
+
+
+
+.banner-container {
+  position: relative;
+  background-image: url('path-to-your-image.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  
+}
+.con{
+    font-weight: bold;
+}
+
+.banner-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  z-index: -1;
+}
+
+.banner-heading {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 550px;
+}
+
+.custom-buttons {
+    color: white;
+    background-color:rgb(8, 8, 131);
+    width: 300px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 15px;
+    margin-right: 0px;
+    
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+}
+.custom-button {
+  color: white;
+  background-color: #d0b200;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.content-container2 {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: left;
+  background-color: #fff; /* White background for content area */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+.intro-text2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.main-text2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.highlight2 {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.closing-text2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.vertical-line2 {
+  border-left: 2px solid ; /* Vertical line style */
+  height: 120px; /* Adjust the height */
+  margin-right: 15px; /* Space between the line and the heading */
+  color: orange;
+  border-color: red;
+  border-width: 6px;
+}
+
+.head12 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+.sec2{
+  height: 630px;
+  padding:10px;
+
+}
+
+.button12 {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  width:250px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 140px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button12:hover {
+  background-color: black;
+  color: white;
+}
+
+.sp12 {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.wcu-section2 {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 50px 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.arr3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between; /* Distributes items with space between them */
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+.para33{
+    color: white;
+    font-family: roboto;
+    font-size: 12px;
+}
+.page33{
+    background-size: cover;
+    width:1540px;
+    text-align: center;
+    padding: 130px;
+    height: 630px;
+    background-image: url("https://res.cloudinary.com/dytikxulw/image/upload/v1733329749/Spacio_TechTonics_Consultancy_V21_bhdfbh.png");
+}
+
+.head33{
+    font-family: roboto;
+    margin-top:120px;
+    color:white;
+    width:450px;
+    
+}
+.lol3{
+  margin: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.presence-section4 {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+
+
+.heading4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.vertical-line4 {
+  width: 3px;
+  height: 50px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.heading-text4 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+}
+
+.description4 {
+  font-size: 16px;
+  color: #555;
+  margin: 20px;
+  margin-left:70px;
+}
+
+.city-list4 {
+  list-style: disc;
+  padding: 0;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  margin: 20px ;
+  margin-left:100px;
+}
+
+.city-list4 li {
+  margin: 5px 0;
+}
+
+.stats4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imga4 {
+  background-image: url("https://res.cloudinary.com/dytikxulw/image/upload/v1733329747/map_o6ujdm.png");
+  background-size: cover;
+  
+}
+
+.ol4 {
+  margin-top:15px;
+  margin-left: 5px;
+}
+
+.stat-box4 h2 {
+  font-size: 32px;
+  color: #000;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.stat-box4 p {
+  font-size: 11px;
+  color: black;
+  text-align: center;
+  width: 100px;
+  font-family: Roboto;
+  margin-top: 10px;
+}
+.sec4{
+  padding: 30px;
+  height: 630px;
+  width: 1450px;
+
+}
+
+/* General styles */
+
+.heading5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding: 30px;
+}
+
+.head5 {
+  display: flex;
+  align-items: center;
+}
+
+.para5 {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+}
+
+.vertical-line5 {
+  width: 5px;
+  height: 50px;
+  background-color: red;
+  margin-right: 15px;
+}
+.sec5{
+  height: 630px;
+  width:1540px;
+}
+
+.imgmor5 {
+  width: 950px;
+  height: 500px;
+  margin-right: 0px;
+  width:1540px;
+}
+
+.heading-text5 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.view-all5 {
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+.view-all5:hover {
+  color: #0056b3;
+}
+/* General styles */
+.heading6 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.head46 {
+  display: flex;
+  align-items: center;
+}
+
+.vertical-line6 {
+  width: 5px;
+  height: 50px;
+  background-color: red;
+  margin-right: 15px;
+}
+
+.heading-text6 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-container6 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.insight-card6 {
+  width: 350px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 350px;
+}
+
+.insight-card6 img {
+  max-width: 50px;
+  margin-bottom: 15px;
+}
+
+.insight-text6 {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.insight-date6 {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.footer6 {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+  color: #888;
+}
+.sec6{
+  width: 1540px;
+  height: 630px;
+  padding: 60px;
+}
+.kkik6{
+  margin-top: 150px;
+}
+
+
+.lol11 {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container11 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo11 img {
+  width: 60px;
+  height: auto;
+}
+
+.footer-logo11 p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-links11 h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-links11 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links11 ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links11 ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links11 ul li a:hover {
+  color: #fff;
+}
+
+.footer-contact11 h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-contact11 .phone-icon11 {
+  font-size: 24px;
+  color: #fff;
+}
+/* styles.css */
+
+
+.containers {
+  text-align: center;
+  padding: 20px;
+  width: 1540px;
+  height: 650px;
+  background: linear-gradient(135deg, rgba(200, 70, 70, 0.7), rgba(120, 30, 50, 0.9)),
+    url('background.jpg') no-repeat center center/cover;
+}
+
+.head10 {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: bolder;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.hoh10 {
+  text-align: center;
+  padding: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.navbar .menu-toggle {
+  display: none;
+}
+
+.main-content {
+  padding-top: 0px;
+  margin-right: 0px;
+}
+
+.main-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.social-links {
+  text-align: left;
+}
+
+.social-links img {
+  width: 30px;
+  margin: 0 5px;
+}
+
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.subscribe input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  flex: 1;
+}
+
+.subscribe button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-note {
+  margin-top: 30px;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.8);
+}
+.lolt10{
+  padding: 80px;
+}
